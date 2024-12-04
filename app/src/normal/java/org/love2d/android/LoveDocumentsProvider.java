@@ -50,6 +50,8 @@ import java.util.PriorityQueue;
 /**
  * Manages documents and exposes them to the Android system for sharing.
  */
+// this comment is here so github can compile
+
 public class LoveDocumentsProvider extends DocumentsProvider {
     private static final String TAG = "LoveDocumentsProvider";
 
