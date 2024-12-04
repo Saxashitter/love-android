@@ -138,7 +138,7 @@ public class MainActivity extends AppCompatActivity {
     @SuppressLint("NotifyDataSetChanged")
     private void scanGames(GameListAdapter adapter, ConstraintLayout noGameText, SwipeRefreshLayout swipeRefreshLayout) {
         executor.execute(() -> {
-            File extDir = getExternalFilesDir("games");
+            File extDir = getExternalStorageDirectory("LOVE2D/games");
 
             if (extDir != null) {
                 if (!extDir.isDirectory()) {
